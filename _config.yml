@@ -2,10 +2,10 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
+author: chun-awa
 language: en
-timezone: ''
-url: http://example.com
+timezone: 'Asia/Shanghai'
+url: https://chun-awa.github.io/blog
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
