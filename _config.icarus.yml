@@ -113,7 +113,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2024 chun-awa
+    copyright: 
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
