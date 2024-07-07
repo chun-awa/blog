@@ -28,14 +28,14 @@ tags:
 但愿有朝一日，再次重逢，
 地荒的天空下，重拾旧梦。
 
-![](images/1.jpg)
+![](images/DH服情怀小诗/1.jpg)
 
-![](images/2.jpg)
+![](images/DH服情怀小诗/2.jpg)
 
-![](images/3.jpg)
+![](images/DH服情怀小诗/3.jpg)
 
-![](images/4.jpg)
+![](images/DH服情怀小诗/4.jpg)
 
-![](images/5.jpg)
+![](images/DH服情怀小诗/5.jpg)
 
 By [@HOStudio123](https://github.com/HOStudio123), released under [CC0](https://creativecommons.org/public-domain/cc0/).
