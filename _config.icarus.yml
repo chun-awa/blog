@@ -145,9 +145,6 @@ article:
         Attribution:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Noncommercial:
-            icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
