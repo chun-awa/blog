@@ -189,9 +189,6 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/chun-awa
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com/chun443954
             RSS:
                 icon: fas fa-rss
                 url: /
