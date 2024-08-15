@@ -119,9 +119,9 @@ footer:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
+        Attribution-NonCommercial-ShareAlike 4.0 International:
+            icon: fab fa-creative-commons-by-nc-sa
+            url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 # Article related configurations
 article:
     # Code highlight settings
