@@ -142,9 +142,9 @@ article:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
+        Attribution-ShareAlike:
+            icon: fab fa-creative-commons-by-sa
+            url: https://creativecommons.org/licenses/by-sa/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
