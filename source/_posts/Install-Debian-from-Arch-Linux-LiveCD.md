@@ -62,6 +62,9 @@ apt install grub-efi
 grub-install
 grub-mkconfig -o /boot/grub/grub.cfg
 
+# Install NetworkManager
+apt install network-manager
+
 # Exit chroot
 exit
 ```
