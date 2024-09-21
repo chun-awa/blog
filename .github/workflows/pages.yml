@@ -1,10 +1,8 @@
 name: Pages
-
 on:
   push:
     branches:
       - main # default branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,13 +26,23 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
-        run: |
-          npm install
-          npm install hexo-cli -g
+        run: npm install
       - name: Build
         run: npm run build
-      - name: Deploy
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          hexo deploy
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
