@@ -60,6 +60,3 @@ exclude: null
 ignore: null
 theme: next
 deploy:
-  type: git
-  repo: https://github.com/chun-awa/blog
-  branch: gh-pages
