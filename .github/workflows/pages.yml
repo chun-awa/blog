@@ -34,4 +34,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: hexo deploy
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          hexo deploy
