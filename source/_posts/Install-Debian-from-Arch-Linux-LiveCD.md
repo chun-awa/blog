@@ -8,7 +8,7 @@ tags:
 pacman -Sy debootstrap
 ```
 ### *2* Format partitions
-Assuming that you already have this partion layout:
+Assuming that you already have this partition layout:
 | Mount Point | File System | Device          |
 |-------------|-------------|-----------------|
 | `/boot/efi` | FAT32       | `/dev/nvme0n1p1`|
