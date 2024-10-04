@@ -1,4 +1,4 @@
-title: chun-awa's Blog
+title: Blog
 subtitle: ''
 description: ''
 keywords: null
@@ -58,8 +58,29 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: next
+theme: cactus
 deploy:
-  type: git
-  repo: https://github.com/chun-awa/blog
-  branch: gh-pages
+theme_config:
+  copyright:
+    start_year: 2024
+  projects_url: https://github.com/chun-awa
+  social_links:
+    -
+      icon: github
+      link: https://github.com/chun-awa
+    -
+      icon: gitlab
+      link: https://gitlab.com/chun-awa
+  nav:
+    Home: /
+    Archives: /archives/
+    Tags: /tags/
+    Search: /search/
+  posts_overview:
+    show_all_posts: true
+  favicon:
+  logo:
+    enabled: false
+  rss: true
+  mathjax:
+    enabled: true
