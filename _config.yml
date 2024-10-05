@@ -75,6 +75,7 @@ theme_config:
     Home: /
     Archives: /archives/
     Tags: /tags/
+    Categories: /categories/
     Search: /search/
   posts_overview:
     show_all_posts: true

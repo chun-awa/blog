@@ -2,6 +2,8 @@
 title: Running QEMU Virtual Machine on Github Codespaces
 date: 2024-07-27 12:21:13
 tags:
+categories:
+  - Linux
 ---
 Create a new codespace:
 ```bash

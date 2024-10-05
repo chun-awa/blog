@@ -2,6 +2,8 @@
 title: DH服情怀小诗
 date: 2024-07-07 19:08:01
 tags:
+categories:
+  - Minecraft
 ---
 在方块的世界里，梦的国度，
 那是地荒，心灵的归宿。
