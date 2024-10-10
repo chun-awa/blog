@@ -2,6 +2,7 @@
 title: Install Debian from Arch Linux LiveCD
 date: 2024-09-20 21:13:59
 tags:
+  - Tutorial
 categories:
   - Linux
 ---
