@@ -7,3 +7,5 @@ categories:
   - Linux
 ---
 ![](images/Debian-sid-upgrade-be-like/1.jpg)
+
+*Source: Lingmo Community Discord Server*
