@@ -1,5 +1,5 @@
 ---
-title: Running QEMU Virtual Machine on Github Codespaces
+title: Running QEMU Virtual Machine in Github Codespaces
 date: 2024-07-27 12:21:13
 tags:
   - Tutorial
