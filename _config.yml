@@ -68,9 +68,6 @@ theme_config:
     -
       icon: github
       link: https://github.com/chun-awa
-    -
-      icon: gitlab
-      link: https://gitlab.com/chun-awa
   nav:
     Home: /
     Archives: /archives/
