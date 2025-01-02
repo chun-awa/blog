@@ -6,7 +6,7 @@ author: chun-awa
 language: en
 timezone: 'Asia/Shanghai'
 url: https://chun-awa.github.io/blog
-permalink: ':year/:month/:day/:title/'
+permalink: ':year/:month/:title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
