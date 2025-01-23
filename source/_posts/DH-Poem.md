@@ -32,24 +32,22 @@ categories:
 
 > 为什么地荒服务器没了？因为它善。 --HOStudio123
 
-![](images/DH服情怀小诗/1.jpg)
+![1](images/DH-Poem/1.jpg)
 
-![](images/DH服情怀小诗/2.jpg)
+![2](images/DH-Poem/2.jpg)
 
-![](images/DH服情怀小诗/3.jpg)
+![3](images/DH-Poem/3.jpg)
 
-![](images/DH服情怀小诗/4.jpg)
+![4](images/DH-Poem/4.jpg)
 
-![](images/DH服情怀小诗/5.jpg)
+![5](images/DH-Poem/5.jpg)
 
-![](images/DH服情怀小诗/5.jpg)
+![6](images/DH-Poem/6.jpg)
 
-![](images/DH服情怀小诗/6.jpg)
+![7](images/DH-Poem/7.jpg)
 
-![](images/DH服情怀小诗/7.jpg)
+![8](images/DH-Poem/8.jpg)
 
-![](images/DH服情怀小诗/8.jpg)
-
-![](images/DH服情怀小诗/9.jpg)
+![9](images/DH-Poem/9.jpg)
 
 By [@HOStudio123](https://github.com/HOStudio123), released under [CC0](https://creativecommons.org/public-domain/cc0/).
