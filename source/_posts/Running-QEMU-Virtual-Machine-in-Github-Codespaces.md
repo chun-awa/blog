@@ -7,22 +7,26 @@ categories:
   - Linux
 ---
 Create a new codespace:
+
 ```bash
 gh codespace create
 ```
 
 Generate SSH config:
+
 ```bash
 gh codespace ssh --config > ~/.ssh/codespaces
 printf 'Match all\nInclude ~/.ssh/codespaces\n' >> ~/.ssh/config
 ```
 
 Connect to the codespace:
+
 ```bash
 ssh cs.<codespace name>.<branch>
 ```
 
 Run these commands in your codespace:
+
 ```bash
 # Install QEMU
 sudo apt install qemu-system-x86
@@ -32,11 +36,13 @@ sudo adduser codespace kvm
 ```
 
 Relogin(or you will get permission denied on `/dev/kvm`) and run QEMU on the codespace:
+
 ```bash
 qemu-system-x86_64 -enable-kvm -display vnc=:0 <other parameters>
 ```
 
 Open SSH tunnel in a new terminal:
+
 ```bash
 ssh cs.<codespace name>.<branch> -L <local port>:localhost:5900 -N
 ```

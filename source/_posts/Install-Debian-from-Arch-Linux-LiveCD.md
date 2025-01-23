@@ -7,11 +7,15 @@ categories:
   - Linux
 ---
 ### *1* Install debootstrap
+
 ```shell
 pacman -Sy debootstrap
 ```
+
 ### *2* Format partitions
+
 Assuming that you already have this partition layout:
+
 | Mount Point | File System | Device          |
 |-------------|-------------|-----------------|
 | `/boot/efi` | FAT32       | `/dev/nvme0n1p1`|
@@ -23,18 +27,24 @@ mkfs.vfat -n EFI -F 32 /dev/nvme0n1p1
 mkfs.ext4 -L debian /dev/nvme0n1p2
 mkswap -L swap /dev/nvme0n1p3
 ```
+
 ### *3* Bootstrap the base system
+
 ```shell
 mount /dev/disk/by-label/debian /mnt -o rw,noatime
 debootstrap sid /mnt <package mirror, e.g. https://deb.debian.org/debian/>
 ```
+
 ### *4* Mount other partitions and generate fstab
+
 ```shell
 mount --mkdir /dev/disk/by-label/EFI /mnt/boot/efi
 swapon /dev/disk/by-label/swap
 genfstab -L /mnt > /mnt/etc/fstab
 ```
+
 ### *5* Chroot stage
+
 ```shell
 arch-chroot /mnt
 
@@ -71,4 +81,5 @@ apt install network-manager
 # Exit chroot
 exit
 ```
+
 ### *6* Run `reboot` and boot into the newly installed system
