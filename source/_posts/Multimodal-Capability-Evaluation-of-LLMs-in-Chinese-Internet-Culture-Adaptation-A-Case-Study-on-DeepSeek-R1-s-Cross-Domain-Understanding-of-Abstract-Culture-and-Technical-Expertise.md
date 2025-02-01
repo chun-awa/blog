@@ -308,6 +308,8 @@ categories:
 
 C++11以降，虽行商君之法：右值引（2011）夺资源如白起坑赵，智能指针立郡县亭长，Lambda（2011）收编函数式流民。然积弊如山崩：Rust挟所有权之法（2015）破关而入，WebAssembly都江堰决堤（2017），JS侵系统疆土，Python执AI牛耳（2012）裂域分疆。内存不仁，终致攻守易势；语法暴虐，徒留咸阳孤城。嗟乎！昔者RAII若郑国渠沃野千里，零成本抽象似灵渠通贯湘漓，而今头文件徭役未废，包管理仁政难施，协程驰道倾颓，概念九鼎失序。倘能斩兼容桎梏、革祖训迂腐，则山河虽改，宗庙可延矣！
 ```
+**Expected Result**: 赢
+**AI Response**: 赢
 
 **User Input**: 讲个笑话，play商店下载的deepseek要求你后台运行了play商店才能用[^8]
 **Expected Result**: 乐
@@ -842,7 +844,7 @@ eval rate:            1.98 tokens/s
 **1. Error Identification**  
 During post-test review, it was discovered that the AI occasionally misattributed **self-generated content** to user inputs. Specifically:  
 
-- The concept "诺亚方舟计划RAID阵列" (*Nuòyǎ Fāngzhōu Jìhuà RAID zhènliè*, "Noah's Ark Project RAID Array*) was autonomously created by the AI but later misinterpreted as user-provided data in subsequent reasoning.  
+- The concept "诺亚方舟计划RAID阵列" (*Nuòyǎ Fāngzhōu Jìhuà RAID zhènliè*, *Noah's Ark Project RAID Array*) was autonomously created by the AI but later misinterpreted as user-provided data in subsequent reasoning.  
 - Recursive testing revealed confusion between **original user prompts** and **AI-generated fictional scenarios** during multi-turn dialogues.  
 
 **2. Impact on Results**  
