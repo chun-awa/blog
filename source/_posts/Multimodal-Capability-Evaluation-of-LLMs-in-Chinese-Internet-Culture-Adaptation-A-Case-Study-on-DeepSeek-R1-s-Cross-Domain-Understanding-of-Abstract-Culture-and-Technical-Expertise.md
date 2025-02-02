@@ -11,7 +11,7 @@ categories:
 ---
 ## Introduction
 
-**Background**: As the "abstract culture" of the Chinese internet evolves alongside the "hardcore discourse" of technical communities, large language models face dual challenges: deconstructing the metaphorical network eof subcultural symbols like "Dian(典)/Beng(绷)/Le(乐)/Xiao(孝)/Ji(急)/Ying(赢)", while maintaining rigorous technical reasoning in specialized domains. This study systematically evaluates the boundaries and potential of DeepSeek-R1 model in cross-domain cognition through a multimodal test set design, providing new methodological perspectives for LLM cultural adaptability research.
+**Background**: As the "abstract culture" of the Chinese internet evolves alongside the "hardcore discourse" of technical communities, large language models face dual challenges: deconstructing the metaphorical network of subcultural symbols like "Dian(典)/Beng(绷)/Le(乐)/Xiao(孝)/Ji(急)/Ying(赢)", while maintaining rigorous technical reasoning in specialized domains. This study systematically evaluates the boundaries and potential of DeepSeek-R1 model in cross-domain cognition through a multimodal test set design, providing new methodological perspectives for LLM cultural adaptability research.
 
 **Objective**: Evaluate DeepSeek-R1’s ability to:  
 
