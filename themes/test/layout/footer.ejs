@@ -1,0 +1,10 @@
+<hr>
+<p><a href="<%- config.root %>">homepage</a>
+</p>
+<p>tags:
+    <% site.tags.each(function(tag, path){ %>
+        <a href="<%- url_for(tag.path) %>"><%= tag.name %></a>
+    <% }); %>
+</p>
+
+<p>Copyright &copy; 2020-<%= new Date().getFullYear() %> <%= config.author %></p>

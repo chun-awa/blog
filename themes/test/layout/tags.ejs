@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tags - <%= config.title %></title>
+    <%- css('css/post.css') %>
+</head>
+<body>
+    <main>
+        <h2>All Tags</h2>
+        <ul>
+            <% site.tags.each(function(tag, posts){ %>
+                <li>
+                    <strong><a href="<%- url_for('/tags/' + tag) %>"><%= tag %></a></strong>
+                    <ul>
+                        <% posts.each(function(post){ %>
+                            <li><a href="<%- url_for(post.path) %>"><%= post.title %></a></li>
+                        <% }); %>
+                    </ul>
+                </li>
+            <% }); %>
+        </ul>
+    </main>
+</body>
+</html>

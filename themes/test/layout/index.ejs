@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= config.title %></title>
+    <%- css('css/post.css') %>
+</head>
+<body>
+<h2>
+    <p>Posts</p>
+</h2>
+<main>
+    <% page.posts.each(function(post){ %>
+        <article>
+            <p><%= post.date.format('YYYY-MM-DD') %>
+                <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+            </p>
+        </article>
+    <% }); %>
+</main>
+<footer>
+    <%- include('footer.ejs') %>
+</footer>
+</body>
+</html>

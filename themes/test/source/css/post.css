@@ -1,0 +1,48 @@
+pre {
+  padding: 2px;
+  border: solid lightgrey 1px;
+}
+
+code:not(pre code) {
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+blockquote {
+  margin-inline-start: 12px;
+  padding-left: 12px;
+  border-left: 2px solid lightgrey;
+}
+
+body {
+  font-family: monospace;
+  background-color: #fff;
+  color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #bdbdbd;
+  }
+
+  a {
+    color: #56c8ff;
+  }
+
+  #nav a:hover {
+		background-color: #222;
+	}
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
