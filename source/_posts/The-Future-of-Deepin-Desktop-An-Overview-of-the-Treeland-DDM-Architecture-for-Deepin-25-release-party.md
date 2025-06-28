@@ -6,6 +6,8 @@ date: 2025-06-28 22:16:22
 tags:
 ---
 
+# The Future of Deepin Desktop: An Overview of the Treeland/DDM Architecture (for Deepin 25 release party)
+
 ## Original Diagram
 
 <picture>
